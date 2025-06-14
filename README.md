@@ -36,6 +36,7 @@ If gives error "undefined reference to nfc_*" during make procedure, you simply 
     +LIBS = $(LIBNFC_LIBS)
     CTRL+S
     CTRL+X
+    make clean && make
 
 To resolve shared libraries LIBNFC bug
 
