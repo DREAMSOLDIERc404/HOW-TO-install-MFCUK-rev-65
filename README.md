@@ -5,7 +5,7 @@ You first need to download both libnfc 1.5.1 and mfcuk r65. The former is availa
 
 If you're on Arch you'll need `pcsclite`, if on Debian derivates `libpcsclite-dev`
 
-Let's compile libnfc (\<user\> is your username)
+For libnfc
 
     mkdir -p ~/builds/nfc
     cd ~/builds/nfc
