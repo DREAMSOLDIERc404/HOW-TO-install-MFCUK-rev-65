@@ -30,6 +30,7 @@ Then, for mfcuk
 *!WARNING!*  
 If gives error "undefined reference to nfc_*" during make procedure, you simply need to:
 
+    cd ~/builds/nfc/mfcuk-r65
     nano /$HOME/builds/nfc/mfcuk-r65/src/Makefile
     //NOW EDIT THE LINE 'LIBS=' adding $(LIBNFC_LIBS)
     -LIBS =
