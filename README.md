@@ -26,7 +26,6 @@ Then, for mfcuk
     autoreconf -is
     LIBNFC_CFLAGS=-I/$HOME/builds/nfc/prefix/include LIBNFC_LIBS="-L/$HOME/builds/nfc/prefix/lib -lnfc" ./configure --prefix=/$HOME/builds/nfc/prefix
     make
-    sudo make install
 
 *!WARNING!*  
 If gives error "undefined reference to nfc_*" during make procedure, you simply need to:
@@ -48,5 +47,5 @@ To resolve shared libraries LIBNFC bug
 If needed, uncomment last line in /etc/nfc/libnfc.conf to enable PN532 discovery.
 You'll now need to run these last 2 commands
 
-    cd /$HOME/builds/nfc/prefix/bin/  
+    cd /$HOME/builds/nfc/mfcuk-r65/src  
     LD_LIBRARY_PATH=/$HOME/builds/nfc/prefix/lib ./mfcuk -C -R 0:A -v 3 -s 250 -S 250 -O mifare_ext.dmp
