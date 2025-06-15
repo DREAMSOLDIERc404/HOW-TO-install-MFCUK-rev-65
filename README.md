@@ -22,7 +22,7 @@ Then, for mfcuk
 
     git clone https://github.com/nfc-tools/mfcuk mfcuk-r65
     cd mfcuk-r65
-    git reset --hard 1b6d022
+    git reset --hard a895841
     autoreconf -is
     LIBNFC_CFLAGS=-I/$HOME/builds/nfc/prefix/include LIBNFC_LIBS="-L/$HOME/builds/nfc/prefix/lib -lnfc" ./configure --prefix=/$HOME/builds/nfc/prefix
     make
