@@ -48,5 +48,5 @@ To resolve shared libraries LIBNFC bug
 If needed, uncomment last line in /etc/nfc/libnfc.conf to enable PN532 discovery.
 You'll now need to run these last 2 commands
 
-    cd /$HOME/builds/nfc/mfcuk-r65/src  
+    cd /$HOME/builds/nfc/prefix/bin/  
     LD_LIBRARY_PATH=/$HOME/builds/nfc/prefix/lib ./mfcuk -C -R 0:A -v 3 -s 250 -S 250 -O mifare_ext.dmp
