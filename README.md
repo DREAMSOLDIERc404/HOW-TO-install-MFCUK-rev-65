@@ -3,12 +3,12 @@ A simple but exhaustive guide to install MFCUK 0.3.3 and LIBNFC 1.5.1 in 2025
 
 You first need to download both libnfc 1.5.1 and mfcuk r65. The former is available among github releases wile the latter can be obtained via git rebase.
 
+
+First let's install requirements
 If you're on Arch you'll need `pcsclite`, if on Debian derivates `libpcsclite-dev`
 
-First let's install libusb
-
     sudo apt-get update
-    sudo apt-get install libusb-1.0-0-dev
+    sudo apt-get install libusb-dev libglib2.0-dev libpcsclite-dev  
     sudo updatedb
 
 For libnfc
