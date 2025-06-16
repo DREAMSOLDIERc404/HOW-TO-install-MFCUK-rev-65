@@ -5,6 +5,11 @@ You first need to download both libnfc 1.5.1 and mfcuk r65. The former is availa
 
 If you're on Arch you'll need `pcsclite`, if on Debian derivates `libpcsclite-dev`
 
+First let's install libusb
+
+    sudo apt-get update
+    sudo apt-get install libusb-1.0-0-dev
+
 For libnfc
 
     mkdir -p ~/builds/nfc
