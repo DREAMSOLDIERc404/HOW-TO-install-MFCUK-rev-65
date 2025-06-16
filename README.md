@@ -9,6 +9,7 @@ First let's install libusb
 
     sudo apt-get update
     sudo apt-get install libusb-1.0-0-dev
+    sudo updatedb
 
 For libnfc
 
